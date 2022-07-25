@@ -40,3 +40,8 @@ https://www.codegrid.net/articles/2020-npm-install-1/
 
 prettier のインストールコマンド
 npm install --save-dev eslint-config-prettier
+
+prettier や ESlint はvscodeに同名の拡張をインストール必要がある
+
+package.jsonのscriptsを使用する場合は
+npm run scriptsで記述したキー
