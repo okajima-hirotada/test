@@ -32,3 +32,11 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+git からプロジェクトを落としたときはnpm install をしないと使えない
+しないとreactコマンドなどが見つからず、サーバを立ち上げることすらできない
+npm installの動作について
+https://www.codegrid.net/articles/2020-npm-install-1/
+
+prettier のインストールコマンド
+npm install --save-dev eslint-config-prettier
