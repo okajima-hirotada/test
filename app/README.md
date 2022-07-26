@@ -33,15 +33,23 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
-git からプロジェクトを落としたときはnpm install をしないと使えない
-しないとreactコマンドなどが見つからず、サーバを立ち上げることすらできない
-npm installの動作について
+git からプロジェクトを落としたときは npm install をしないと使えない
+しないと react コマンドなどが見つからず、サーバを立ち上げることすらできない
+npm install の動作について
 https://www.codegrid.net/articles/2020-npm-install-1/
 
 prettier のインストールコマンド
 npm install --save-dev eslint-config-prettier
+npm i -D eslint-config-prettier
+上の二つのコマンドは同じ
+--save-dev のショートカットが -D 　 install のショートカットが i
 
-prettier や ESlint はvscodeに同名の拡張をインストール必要がある
+prettier や ESlint は vscode に同名の拡張をインストール必要がある
 
-package.jsonのscriptsを使用する場合は
-npm run scriptsで記述したキー
+package.json の scripts を使用する場合は
+npm run scripts で記述したキー
+
+.vscode フォルダは.git と同じ階層に入れるべき？
+→dockerfile などを作成する場合は app と同じ階層に dockerfile が入る
+つまり、いずれ docker を使用することを決めたときに app の中に.vscode が入っていると setting が機能しなくなる
+しかし、app と同階層に.vscode をおいても閉じていれば、そこまで気になるものではないので、docker を考えているのであれば、同階層で良い！

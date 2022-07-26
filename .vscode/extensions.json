@@ -1,0 +1,12 @@
+{
+  "recommendations": [
+    "esbenp.prettier-vscode",
+    "dbaeumer.vscode-eslint",
+    "formulahendry.auto-close-tag",
+    "formulahendry.auto-rename-tag",
+    "dsznajder.es7-react-js-snippets",
+    "xabikos.javascriptsnippets",
+    "pulkitgangwar.nextjs-snippets",
+    "ryu1kn.partial-diff"
+  ]
+}
