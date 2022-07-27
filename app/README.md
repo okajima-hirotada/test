@@ -53,3 +53,7 @@ npm run scripts で記述したキー
 →dockerfile などを作成する場合は app と同じ階層に dockerfile が入る
 つまり、いずれ docker を使用することを決めたときに app の中に.vscode が入っていると setting が機能しなくなる
 しかし、app と同階層に.vscode をおいても閉じていれば、そこまで気になるものではないので、docker を考えているのであれば、同階層で良い！
+
+prettier のコマンドは
+npm i -D prettier
+で prettier をインストールすれば使用できる
